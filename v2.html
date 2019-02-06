@@ -1,0 +1,24 @@
+<!doctype html>
+  <html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>99 bootles of beer com um ciclo while</title>
+  </head>
+<body>
+<script>
+  var palavra = "bottles";
+  var contador = 99;
+  while (contador > 0) {
+     document.write(contador + " " + palavra + " of beer on the wall" + "<br>");
+     document.write(contador + " " + palavra + " of beer," + "<br>");
+     document.write("Take one down, pass it around," + "<br><br>");
+     contador = contador - 1;
+     if (contador > 0) {
+         document.write(contador + " " + palavra + " of beer on the wall.");
+     } else {
+         document.write("No more " + palavra + " of beer on the wall.");
+     }
+ }
+</script>
+</body>
+</html>
